@@ -1,0 +1,283 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.header{width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0,.5);
+    overflow: auto;
+    position:fixed;
+    left: 0;
+    top: 0;
+    z-index: 15;
+}
+.logo{color: aliceblue;
+    display: block;
+    float: left;
+    font-weight: 900;
+    font-size: 42px;
+margin-top: 0px;
+margin-left: 30px;
+text-transform: uppercase;
+}
+.header-list{color: aliceblue;
+    list-style: none;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.header-list li{
+    display: inline-block;
+    padding: 0px  10px;
+}
+.div1{background: url(../photos/urban-architecture-black-white-from-new-york-city-manhattan.jpg) no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+} 
+.overlay{background-color:rgba(0, 0, 0, .6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+.heading{
+    position:absolute;
+    top: 50%;
+    right: 50%;
+transform: translate(50% , -50%);  
+  color: white;text-align: center;
+}
+.heading h1{ font-size: 55px;}
+.heading p {margin: 20px 0px;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.btn{
+    width: 160px;
+    height: 40px;
+    margin-right: 12px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    border: none;
+}
+.btn1{color: rgb(0, 0, 0);}
+.btn2{
+    color: white;
+    background-color: blue;
+}
+.btn:hover{
+    opacity: .5;
+}
+/* 00000000000000000000000000000000000000000000000000000000000000 */
+
+.container{height: 100vh;
+    width: 80%;
+    margin: auto;
+position: relative;}
+.home{top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 100%;
+
+}
+.h2{
+    font-weight: bold;
+font-size: 42px;
+text-align: center;
+}
+.line{display: block;
+width: 100px;
+height: 4px;
+background-color: blue;
+margin: auto;
+margin-top: 15px;}
+.home-sec{margin: auto;
+ margin-top: 50px;
+ width: 100%;
+overflow: auto;
+}
+.home-sec1{width: 25%;
+border: 0.5px solid;
+float: left;
+margin-left: 7.5%;
+text-align: center;padding-top: 10px;line-height: 40px;position: relative;
+font-size: 22px;
+}
+.home-sec1 i{color: rgb(101, 101, 228);
+font-size: 30px;}
+.home-sec1 h3 {line-height: 40px;}
+.home-sec1::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: gray;
+    transition: .5s;
+
+}
+
+.home-sec1:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+}
+/* 000000000000000000000000000000000000000000000000000000000 */
+.works-sec{width: 100%;
+overflow: auto;
+margin: auto;
+margin-top: 50px;
+height: 80vh;
+}
+.works-sec1{float: left;
+width: 25%;
+border: .5px solid ;
+text-align: center;
+margin-left: 7.5%;
+line-height: 40px;}
+.works-sec1 img{padding-top: 10%;
+    text-align: center;
+
+    width: 80%;
+    height: 200px;
+}
+.works-sec1 i {
+    color: rgb(101, 101, 228);
+    font-size: 30px;
+}
+.works-sec1 h3 {
+    line-height: 40px;
+}
+/* 00000000000000000000000000000000 */
+.prices-sec {
+    width: 100%;
+    overflow: auto;
+    margin: auto;
+    margin-top: 50px;
+    height: 100vh;}
+.price-class{padding: 20px 0;
+        text-align: center;
+    font-size: 40px; color: gray;text-transform: uppercase;
+line-height: 40px;}
+ .circal{width: 200px;position: relative;
+        height: 200px;
+    border-radius: 50%;
+text-align: center;
+background-color: rgb(182, 182, 182);
+margin: auto;}
+.price{margin: 70px 0 20px 20px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    position: absolute;}
+.prices-sec1 {
+    float: left;
+    width: 25%;
+    border: .5px solid;
+    text-align: center;
+    margin-left: 7.5%;
+    height: 70%;
+}
+.dis{font-size: 20px;
+color: gray;line-height: 40px;
+}
+.prices-sec1 h3 {
+    line-height: 40px;
+    font-size: 30px;
+}
+.prices-sec1 a{line-height: 40px;
+    font-size: 20px;
+color: blue;}
+/* 0000000000000000000000000000 */
+.team-content{ overflow:auto;
+}
+.team-itme{
+float: left;
+width: 30%;
+padding: 14px 18px;
+text-align: center;
+margin: auto;background-color: rgb(243, 243, 243);
+position: relative;
+}
+.team-img{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.team-img img{
+    width: 100%;
+    height: 80%;
+}
+
+.team-overlay a {display: block;
+background-color: rgb(53, 171, 240);
+color: rgb(255, 255, 255);
+width: 40px;
+height: 40px;
+margin-left: auto;
+font-size: 23px;
+}
+.team-overlay i {line-height: 40px;}
+.team-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    visibility: hidden;
+    transition: 1s;
+    opacity: 0;
+}
+
+.team-img:hover .team-overlay {
+    visibility: visible;
+    opacity: .6;
+}
+.team-info-titel{
+    text-transform: uppercase;
+    padding: 12px 0px;
+
+}.mm{margin: 0px 5%;}
+.team-itme::after{
+    position: absolute;
+    content: "";
+    width: 100% ;
+    height: 0%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: gray;
+    transition: .5s;
+
+}
+.team-itme:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .6;}
+/* 000000000000000000000 */
+.footer{height: 40vh;
+background-color: gray;}
+/* position: relative;} */
+.footer-img{
+    /* position: absolute; */
+    font-size: 40px;
+    margin-left: 40%;
+    width: 30%;line-height: 60px;
+}
+.footer-img img{width: 200px;
+height: 100px;
+text-align: center;
+margin: 10px  40px;}
+.copy-right{
+    text-align: center;line-height: 40px;
+}
+.footer-img li{display: inline;
+list-style: none;
+}
+.footer-img a{color: blue;}
